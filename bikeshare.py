@@ -26,7 +26,9 @@ def get_filters():
     while True:
         try:
             city = input("Would you like to get information for Chicago, New York City, or Washington? ").lower()
-            assert(city in ['chicago', 'new york city', 'washington'])
+            assert(city in ['chicago', 'new york city', 'washington', 'new york'])
+            if city == 'new york':
+                city = 'new york city'
             break
         except AssertionError as e:
             print('Please enter a valid city name!')
