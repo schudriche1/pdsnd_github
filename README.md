@@ -7,7 +7,7 @@ July 22, 2021
 Version Control Final Project
 
 ### Description
-Describe what your project is about and what it does
+This project is the final project of the Programming for Data Science Nanodegree Program.
 
 ### Files used
 bikeshare.py
